@@ -1,0 +1,6 @@
+RUN_START|class1_1.m
+Iteration 1: WX = 2.50, O = 1, Error = -2, W = [0.7         0.8        -0.6           0]
+Iteration 2: WX = -1.60, O = -1, Error = 0, W = [0.7         0.8        -0.6           0]
+Iteration 3: WX = -2.10, O = -1, Error = 2, W = [0.5         0.6        -0.4         0.1]
+
+RUN_PASS|class1_1.m

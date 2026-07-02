@@ -1,0 +1,4 @@
+﻿RUN_START|iris_knn.m
+Test accuracy: 95.56%
+EXIT_CODE|0
+RUN_PASS|iris_knn.m

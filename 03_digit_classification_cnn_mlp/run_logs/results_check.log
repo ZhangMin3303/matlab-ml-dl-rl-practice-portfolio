@@ -1,0 +1,8 @@
+RESULT|mlp_digit_classification_result.mat|accuracy=75.4800%
+VAR|YPred|[]|categorical
+VAR|YTest|[]|categorical
+VAR|accuracy|[1 1]|double
+RESULT|cnn_digit_classification_result.mat|accuracy=99.3200%
+VAR|YPred|[]|categorical
+VAR|YTest|[]|categorical
+VAR|accuracy|[1 1]|double

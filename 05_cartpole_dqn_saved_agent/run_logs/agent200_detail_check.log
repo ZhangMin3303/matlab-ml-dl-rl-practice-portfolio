@@ -1,0 +1,31 @@
+RUN_START|agent200_detail_check
+VARS
+    {'saved_agent'     }
+    {'savedAgentResult'}
+
+SAVED_AGENT_RESULT_CLASS
+rl.train.rlTrainingResult
+SAVED_AGENT_RESULT_DISPLAY
+  rlTrainingResult - 属性:
+
+       EpisodeIndex: [200x1 double]
+      EpisodeReward: [200x1 double]
+       EpisodeSteps: [200x1 double]
+      AverageReward: [200x1 double]
+    TotalAgentSteps: [200x1 double]
+       AverageSteps: [200x1 double]
+          EpisodeQ0: [200x1 double]
+     SimulationInfo: [200x1 struct]
+    TrainingOptions: [1x1 rl.option.rlTrainingOptions]
+
+AGENT_DISPLAY
+  rlDQNAgent - 属性:
+
+        ExperienceBuffer: [1x1 rl.replay.rlReplayMemory]
+            AgentOptions: [1x1 rl.option.rlDQNAgentOptions]
+    UseExplorationPolicy: 0
+         ObservationInfo: [1x1 rl.util.rlNumericSpec]
+              ActionInfo: [1x1 rl.util.rlFiniteSetSpec]
+              SampleTime: 0.1000
+
+RUN_PASS|agent200_detail_check

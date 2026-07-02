@@ -1,0 +1,13 @@
+RUN_START|class1_2.m
+Iteration 1: WX = 0.00, O = 1, Error = -2, W = [0.2      0.0418      0.1069]
+Iteration 2: WX = -0.09, O = -1, Error = 0, W = [0.2      0.0418      0.1069]
+Iteration 3: WX = -0.16, O = -1, Error = 2, W = [0      0.2418      0.1069]
+Iteration 4: WX = 0.35, O = 1, Error = 0, W = [0      0.2418      0.1069]
+Iteration 5: WX = 0.00, O = 1, Error = -2, W = [0.2      0.2418      0.1069]
+Iteration 6: WX = -0.09, O = -1, Error = 0, W = [0.2      0.2418      0.1069]
+Iteration 7: WX = 0.04, O = 1, Error = 0, W = [0.2      0.2418      0.1069]
+Iteration 8: WX = 0.15, O = 1, Error = 0, W = [0.2      0.2418      0.1069]
+Iteration 9: WX = -0.20, O = -1, Error = 0, W = [0.2      0.2418      0.1069]
+Training finished at iteration 9, final W = [0.2      0.2418      0.1069]
+
+RUN_PASS|class1_2.m

@@ -1,0 +1,24 @@
+RUN_START|agent200_sim_check
+ENV_OK|CartPole-Discrete
+ENV_OBS|  <a href="matlab:helpPopup rl.util.rlNumericSpec" style="font-weight:bold">rlNumericSpec</a> - 属性:
+
+     LowerLimit: -Inf
+     UpperLimit: Inf
+           Name: "CartPole States"
+    Description: "x, dx, theta, dtheta"
+      Dimension: [4 1]
+       DataType: "double"
+
+
+ENV_ACT|  <a href="matlab:helpPopup rl.util.rlFiniteSetSpec" style="font-weight:bold">rlFiniteSetSpec</a> - 属性:
+
+       Elements: [-10 10]
+           Name: "CartPole Action"
+    Description: [0x0 string]
+      Dimension: [1 1]
+       DataType: "double"
+
+
+SIM_STEPS|157
+SIM_TOTAL_REWARD|151.0000
+RUN_PASS|agent200_sim_check

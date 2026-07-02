@@ -1,0 +1,19 @@
+FILE|iris_2d_scatter_data.mat
+VAR|sepallength|[150 1]|double
+VAR|sepalwidth|[150 1]|double
+VAR|species|[150 1]|cell
+FILE|iris_3d_scatter_data.mat
+VAR|petallength|[150 1]|double
+VAR|sepallength|[150 1]|double
+VAR|sepalwidth|[150 1]|double
+VAR|species|[150 1]|cell
+FILE|iris_knn_result.mat
+VAR|accuracy|[1 1]|double
+VAR|k|[1 1]|double
+VAR|knnModel|[1 1]|ClassificationKNN
+VAR|newData|[3 4]|double
+VAR|predictedLabels|[45 1]|cell
+VAR|predictedLabelsNew|[3 1]|cell
+VAR|testLabels|[45 1]|cell
+KNN_ACCURACY|95.5556%
+NEW_PREDICTIONS|setosa,versicolor,virginica

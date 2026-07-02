@@ -1,0 +1,24 @@
+FILE|data0.mat
+VAR|zero|[10 10]|double
+FILE|data1.mat
+VAR|array_one|[10 10]|double
+FILE|data1_noisy.mat
+VAR|noisy_array_one|[10 10]|double
+FILE|data2.mat
+VAR|array_two|[10 10]|double
+FILE|data2_noisy.mat
+VAR|noisy_array_two|[10 10]|double
+FILE|data3.mat
+VAR|three|[10 10]|double
+FILE|data4.mat
+VAR|four|[10 10]|double
+FILE|data5.mat
+VAR|five|[10 10]|double
+FILE|data6.mat
+VAR|six|[10 10]|double
+FILE|data7.mat
+VAR|seven|[10 10]|double
+FILE|data8.mat
+VAR|eight|[10 10]|double
+FILE|data9.mat
+VAR|nine|[10 10]|double
