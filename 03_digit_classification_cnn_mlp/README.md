@@ -8,10 +8,12 @@
 数据来自 MATLAB 安装目录：
 
 ```text
-D:\MATLAB\toolbox\nnet\nndemos\nndatasets\DigitDataset
+fullfile(matlabroot, 'toolbox', 'nnet', 'nndemos', 'nndatasets', 'DigitDataset')
 ```
 
-## 运行验证
+## 历史运行记录
+
+以下准确率与结果是已有历史记录；2026-10-28 未重跑 CNN/MLP 训练，也未复核数据切分、多种子稳定性或方法间公平比较。不得作为本轮新验证或稳定提升的结论。
 
 验证时间：2026-07-01
 
@@ -58,5 +60,5 @@ run('cnn_tuxiangfenlei.m')
 
 ## 结论
 
-CNN 明显优于简单 MLP，说明卷积结构能够更好地利用图像的局部空间特征。这个项目适合作为“基础深度学习图像分类实践”的课程项目材料。
+这些历史输出可帮助讲解 CNN/MLP 的课程实现。当前记录不足以证明稳定的模型优劣或泛化收益；本项目仅作基础深度学习练习展示。
 

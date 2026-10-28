@@ -61,4 +61,6 @@ results/agent200_sim_check.mat
 
 ## 面试表述建议
 
-这个项目可以表述为：使用 MATLAB Reinforcement Learning Toolbox 对 CartPole 控制任务进行了 DQN 训练，并保存了训练过程中的 agent checkpoints。当前资料保留了训练结果、最终 agent、训练指标和仿真验证脚本；后续如果找到原始训练脚本，可以补全为完整可复现实验项目。
+现有材料支持的表述是：保留并核查了 MATLAB CartPole saved agent、历史训练指标与后续新增的加载/仿真脚本。尚未定位原始训练源码，权重来源和本人训练贡献仍需确认，不能据此宣称独立实现或完成 DQN 训练。2026-07-02 的加载/仿真记录属于历史验证；2026-10-28 仅做文件与说明核查，未重新加载、仿真或训练。
+
+The available evidence supports saved-agent inspection and historical loading/simulation checks. Original training source and personal training contribution remain unverified. This is not an independent DQN training implementation claim.

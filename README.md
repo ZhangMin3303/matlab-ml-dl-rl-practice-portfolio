@@ -18,6 +18,14 @@ This repository is a public, privacy-safe, and slimmed-down version of my MATLAB
 | `04_iris_knn_classification` | Iris dataset visualization and KNN classification | Scripts, visual results, and logs included |
 | `05_cartpole_dqn_saved_agent` | CartPole DQN saved-agent verification | Only representative `Agent200.mat` is included; full checkpoint archive excluded |
 
+## Provenance and current validation boundary
+
+These are coursework and learning exercises, using reference implementations and AI help for questions, checking and debugging. They are not separate original research projects. `NNA_class1_2.m` and `class1_2.m` are identical-source variants and are counted once.
+
+The [AI selection-task portfolio](https://github.com/ZhangMin3303/ai-intelligent-systems-practice-portfolio) links to this canonical foundational-practice entry. It is the same learning work and is counted once.
+
+Existing logs and numerical values are historical. The 2026-10-28 maintenance review did not retrain these CNN/MLP models or load/simulate the saved CartPole agent. A saved agent and simulation script do not establish authorship of the missing DQN training source. Source attribution and redistribution permissions still need per-item clarification; no blanket license is assigned here.
+
 ## What This Repository Demonstrates
 
 - MATLAB scripting for small ML/DL/RL experiments.
@@ -42,7 +50,7 @@ See [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) for details.
 
 ## Environment
 
-The projects were checked locally with MATLAB R2023a. Some scripts require specific toolboxes:
+The historical checks used MATLAB R2023a. They are not a new full rerun during the current maintenance review. Some scripts require specific toolboxes:
 
 - Deep Learning Toolbox
 - Statistics and Machine Learning Toolbox
